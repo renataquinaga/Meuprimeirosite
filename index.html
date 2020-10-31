@@ -2,12 +2,14 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63e4e23fad.js" crossorigin="anonymous"></script>
     <title>Título do Site</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style>
         header {
             text-align: center;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Raleway', sans-serif;
             font-size: larger;
             padding: 0px;
             margin: 0px;
@@ -17,12 +19,15 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
+            position:fixed;
+            background-color:aliceblue;
+            width: 100%;
         }
 
         header li {
             float: left;
-            font-size: x-large;
-            font-weight: bold;
+            font-size: large;
+            font-weight:normal;
         }
 
         header li a {
@@ -34,117 +39,134 @@
         }
 
         li a:hover {
-            color:brown;
+            color:olivedrab;
         }
 
         body {
-            color:rgb(66, 59, 59); display: block; margin: 0px;
-            font: 12px/1.4 Verdana;                  
+            color:black; display: block; margin: 0px;
+            font: 14px/1.4 'Raleway','Verdana', sans-serif;                  
         }
         
         h1, h2, h3 {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Raleway','Verdana', sans-serif;
+            font-weight: normal;
         }
 
         h1 {
-            font-size: 200px;
+            font-size: 100px;
         }
         
         h2 {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 50px;
+            font-family: 'Raleway','Verdana', sans-serif;
+            font-size: 30px;
         }
        
         h3 {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;
+            font-family: 'Raleway','Verdana', sans-serif;
+            font-size: 20px;
         }
         
-        .ana {
+        .home {
+            text-align: center;
+            color:rgb(212, 212, 212);
+            padding: 20px;
+            padding-bottom: 50px;
+            margin: 0px auto;
+            background-color:rgb(38, 38, 65);
+        }
+        .lojaonline {
+
             text-align: center;
             padding: 20px;
+            padding-bottom: 50px;
             margin: 0px;
         }
-        .rodrigo {
+        .sobrenos {
             text-align: center;
             padding: 20px;
-            margin: 0px;
+            padding-bottom: 50px;
+            background-color: #9db978;
         }
-        .rafaela {
+        .midia {
             text-align: center;
             padding: 20px;
+            padding-bottom: 50px;
             margin: 0px;
+            background-color: #a8dbec;
         }
-        .camila {
+        .blog {
             text-align: center;
             padding: 20px;
+            padding-bottom: 50px;
             margin: 0px;
-        }
-        .cire {
-            text-align: center;
-            padding: 20px;
-            margin: 0px;
+            background-color:#6dab7f;
         }
 
         .footer {
             padding: 20px;
             margin: 0px;
-            background-color: coral;
+            background-color: #59665c;
+        }
+        a.button:link {
+            background-color: #5c9d4f;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px;
+            font-weight: bold;
+            border-radius: 4px;        
+}
+        a .button:hover{
+            background-color: #4b8e3a;
         }
     </style>
 
 </head>
 <body>
     <header>
-        <h2>Título do Site</h2>
         <ul>
             <li>
-                <a href="#ana">Ana Cláudia</a>
+                <a href="#home">Home</a>
             </li>
             <li>
-                <a href="#rodrigo">Rodrigo</a>
+                <a href="#lojaonline">Loja Online</a>
             </li>
             <li>
-                <a href="#rafaela">Rafaela</a>
+                <a href="#sobrenos">Sobre nós</a>
             </li>
             <li>
-                <a href="#camila">Camila</a>
+                <a href="#midia">Mídia</a>
             </li>
             <li>
-                <a href="#cire">Cinthia e Renata</a>
+                <a href="#blog">Blog</a>
             </li>
                  </ul>
-        <img width="100%" src="imgheader.jpg" alt="imagemheader">
+        <img width="100%" src="banner 01_Prancheta 1.png" alt="banner01">
     </header>
 
-    <div class="ana"><a id="ana">
-        <h2>Ana Cláudia</h2>
-        <img src="ana.jpg" alt="anaclaudia">
+    <div class="home"><a id="home">
+        <h2>Apresentação</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <h3>Sobre</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <img style="width:300; margin: 10px" src="rafaela.jpg" alt="rafaela"><img style="width:300; margin: 10px" src="rafaela.jpg" alt="rafaela"><img style="width:300; margin: 10px" src="rafaela.jpg" alt="rafaela">    
+        <h3>Texto em destaque. Texto em destaque.</h3>
+        <i class="fab fa-pagelines fa-3x"></i>
     </a>
     </div>
 
-    <div class="rodrigo"><a id="rodrigo">
-        <h2>Rodrigo</h2>
-        <img src="rodrigo.jpg" alt="rodrigo">
+    <div class="lojaonline"><a id="lojaonline">
+        <h2>Loja Online</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <h3>Sobre</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
         <img style="width:300; margin: 10px" src="rafaela.jpg" alt="rafaela"><img style="width:300; margin: 10px" src="rafaela.jpg" alt="rafaela"><img style="width:300; margin: 10px" src="rafaela.jpg" alt="rafaela">    
-    </a>
+        <br/>
+        <a class="button" href="https://www.google.com/" target="_blank">Compre já!</a>
+        </a>
     </div>
 
-    <div class="rafaela"><a id="rafaela">
-        <h2>Rafaela</h2>
+    <div class="sobrenos"><a id="sobrenos">
+        <h2>Sobre nós</h2>
         <img src="rafaela.jpg" alt="rafaela">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
@@ -156,8 +178,8 @@
     </a>
     </div>
 
-    <div class="camila"><a id="camila">
-        <h2>Camila</h2>
+    <div class="midia"><a id="midia">
+        <h2>Mídia</h2>
         <img src="camila.jpg" alt="camila">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
@@ -169,8 +191,8 @@
     </a>
     </div>
 
-    <div class="cire"><a id="cire">
-       <h2>Cinthia e Renata</h2>
+    <div class="blog"><a id="blog">
+       <h2>Blog</h2>
        <video controls>
         <source src="dog.mp4" type="video/mp4"></video>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
@@ -187,19 +209,19 @@
 <img style="margin-bottom: 10px" src="seamless-background-80s14-.jpg" width="100">
 <ul>
     <li>
-        <a href="#ana">Ana Cláudia</a>
+        <a href="#home">Home</a>
     </li>
     <li>
-        <a href="#rodrigo">Rodrigo</a>
+        <a href="#lojaonline">Loja online</a>
     </li>
     <li>
-        <a href="#rafaela">Rafaela</a>
+        <a href="#sobrenos">Sobre nós</a>
     </li>
     <li>
-        <a href="#camila">Camila</a>
+        <a href="#midia">Mídia</a>
     </li>
     <li>
-        <a href="#cire">Cinthia e Renata</a>
+        <a href="#blog">Blog</a>
     </li>
 </ul>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
